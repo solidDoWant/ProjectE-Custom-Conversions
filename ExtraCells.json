@@ -1,0 +1,506 @@
+{
+	"comment":	"This is a custom conversions file for Extra Cells",
+	
+	"groups":	{
+		"Blocks":	{
+			"conversions":	[
+				{
+					"count": 1,
+					"output": "extracells:certustank|0",
+					"ingredients":	{
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 8
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:walrus|0",
+					"ingredients":	{
+						"minecraft:fish|0": 8
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:fluidcrafter|0",
+					"ingredients":	{
+						"extracells:storage.component|4": 1,
+						"appliedenergistics2:tile.BlockMolecularAssembler|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:ecbaseblock|0",
+					"ingredients":	{
+						"OD|ingotIron": 4,
+						"OD|dyeBlue": 4,
+						"appliedenergistics2:item.ItemMultiMaterial|43": 1,
+						"appliedenergistics2:item.ItemMultiMaterial|44": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:ecbaseblock|1",
+					"ingredients":	{
+						"extracells:ecbaseblock|0": 1,
+						"extracells:part.base|3": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:hardmedrive|0",
+					"ingredients":	{
+						"minecraft:obsidian|0": 7,
+						"appliedenergistics2:tile.BlockDrive|0": 1,
+						"appliedenergistics2:item.ItemMultiPart|76": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:vibrantchamberfluid|0",
+					"ingredients":	{
+						"OD|ingotIron": 7,
+						"appliedenergistics2:tile.BlockVibrationChamber|0": 1,
+						"extracells:certustank|0": 1
+					}
+				}				
+			]
+		},
+		"Buses/Emitters/Interface":	{
+			"conversions":	[
+				{
+					"count": 1,
+					"output": "extracells:part.base|0",
+					"ingredients":	{
+						"OD|dyeBlue": 2,
+						"appliedenergistics2:item.ItemMultiMaterial|43": 1,
+						"minecraft:piston|0": 1,
+						"OD|ingotIron": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:part.base|1",
+					"ingredients":	{
+						"OD|dyeBlue": 2,
+						"appliedenergistics2:item.ItemMultiMaterial|44": 1,
+						"minecraft:sticky_piston|0": 1,
+						"OD|ingotIron": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:part.base|2",
+					"ingredients":	{
+						"OD|dyeBlue": 2,
+						"minecraft:piston|0": 1,
+						"minecraft:sticky_piston|0": 1,
+						"appliedenergistics2:tile.BlockInterface|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:part.base|4",
+					"ingredients":	{
+						"appliedenergistics2:item.ItemMultiPart|280": 1,
+						"OD|dyeBlue": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:part.base|9",
+					"ingredients":	{
+						"extracells:ecbaseblock|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:part.base|12",
+					"ingredients":	{
+						"appliedenergistics2:item.ItemMultiPart|260": 1,
+						"appliedenergistics2:item.ItemMultiMaterial|29": 2,
+						"appliedenergistics2:item.ItemMultiMaterial|30": 4
+					}
+				}
+			]
+		},
+		"ME Storage"	:{
+			"conversions":	[
+				{
+					"count": 1,
+					"output": "extracells:storage.physical|0",
+					"ingredients":	{
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 2,
+						"OD|dustFluix": 3,
+						"extracells:storage.component|0": 1,
+						"OD|gemDiamond": 3
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.physical|1",
+					"ingredients":	{
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 2,
+						"OD|dustFluix": 3,
+						"extracells:storage.component|1": 1,
+						"OD|gemDiamond": 3
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.physical|2",
+					"ingredients":	{
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 2,
+						"OD|dustFluix": 3,
+						"extracells:storage.component|2": 1,
+						"OD|gemDiamond": 3
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.physical|3",
+					"ingredients":	{
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 2,
+						"OD|dustFluix": 3,
+						"extracells:storage.component|3": 1,
+						"OD|gemDiamond": 3
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.physical|4",
+					"ingredients":	{
+						"OD|chestWood": 1,
+						"appliedenergistics2:item.ItemMultiMaterial|35": 1,
+						"appliedenergistics2:item.ItemMultiMaterial|39": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.casing|0",
+					"ingredients":	{
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 2,
+						"OD|dustFluix": 3,
+						"OD|gemDiamond": 3
+					}
+				}
+			]
+		},
+		"Other":	{
+			"conversions":	[
+				{
+					"count": 1,
+					"output": "extracells:pattern.fluid|0",
+					"ingredients":	{
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 2,
+						"minecraft:bucket|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:terminal.fluid.wireless|0",
+					"ingredients":	{
+						"appliedenergistics2:item.ItemMultiMaterial|41": 1,
+						"appliedenergistics2:item.ItemMultiPart|380": 1,
+						"appliedenergistics2:tile.BlockDenseEnergyCell|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.fluid.portable|0",
+					"ingredients":	{
+						"appliedenergistics2:tile.BlockEnergyCell|0": 1,
+						"appliedenergistics2:tile.BlockChest|0": 1,
+						"extracells:storage.component|4": 1
+					}
+				}
+			]
+		},
+		"Fluid Storage":	{
+			"conversions":	[
+				{
+					"count": 1,
+					"output": "extracells:storage.fluid|0",
+					"ingredients":	{
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 2,
+						"OD|dustFluix": 3,
+						"extracells:storage.component|4": 1,
+						"extracells:certustank|0": 3
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.fluid|1",
+					"ingredients":	{
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 2,
+						"OD|dustFluix": 3,
+						"extracells:storage.component|5": 1,
+						"extracells:certustank|0": 3
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.fluid|2",
+					"ingredients":	{
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 2,
+						"OD|dustFluix": 3,
+						"extracells:storage.component|6": 1,
+						"extracells:certustank|0": 3
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.fluid|3",
+					"ingredients":	{
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 2,
+						"OD|dustFluix": 3,
+						"extracells:storage.component|7": 1,
+						"extracells:certustank|0": 3
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.fluid|4",
+					"ingredients":	{
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 2,
+						"OD|dustFluix": 3,
+						"extracells:storage.component|8": 1,
+						"extracells:certustank|0": 3
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.fluid|5",
+					"ingredients":	{
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 2,
+						"OD|dustFluix": 3,
+						"extracells:storage.component|9": 1,
+						"extracells:certustank|0": 3
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.fluid|6",
+					"ingredients":	{
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 2,
+						"OD|dustFluix": 3,
+						"extracells:storage.component|10": 1,
+						"extracells:certustank|0": 3
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.casing|1",
+					"ingredients":	{
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 2,
+						"OD|dustFluix": 3,
+						"extracells:certustank|0": 3
+					}
+				}
+			]
+		},
+		"Planes":	{
+			"conversions":	[
+				{
+					"count": 1,
+					"output": "extracells:part.base|5",
+					"ingredients":	{
+						"OD|dustFluix": 3,
+						"OD|dyeBlue": 3,
+						"OD|ingotIron": 2,
+						"appliedenergistics2:item.ItemMultiMaterial|44": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:part.base|6",
+					"ingredients":	{
+						"OD|dustFluix": 3,
+						"OD|dyeBlue": 3,
+						"OD|ingotIron": 2,
+						"appliedenergistics2:item.ItemMultiMaterial|43": 1
+					}
+				}
+			]
+		},
+		"Fixtures":	{
+			"conversions":	[
+				{
+					"count": 1,
+					"output": "extracells:part.base|7",
+					"ingredients":	{
+						"OD|ingotIron": 2,
+						"appliedenergistics2:tile.BlockDrive|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:part.base|8",
+					"ingredients":	{
+						"OD|ingotIron": 2,
+						"appliedenergistics2:tile.BlockEnergyCell|0": 1
+					}
+				}
+			]
+		},
+		"Terminals/Monitors":	{
+			"conversions":	[
+				{
+					"count": 1,
+					"output": "extracells:part.base|3",
+					"ingredients":	{
+						"OD|itemIlluminatedPanel": 1,
+						"OD|dyeBlue": 2,
+						"appliedenergistics2:item.ItemMultiMaterial|43": 1,
+						"appliedenergistics2:item.ItemMultiMaterial|44": 1,
+						"appliedenergistics2:item.ItemMultiMaterial|22": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:part.base|10",
+					"ingredients":	{
+						"OD|itemIlluminatedPanel": 1,
+						"OD|dyeBlue": 2,
+						"appliedenergistics2:item.ItemMultiPart|280": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:part.base|11",
+					"ingredients":	{
+						"extracells:part.base|10": 1,
+						"appliedenergistics2:item.ItemMultiMaterial|43": 1,
+						"appliedenergistics2:item.ItemMultiMaterial|44": 1
+					}
+				}
+			]
+		},
+		"ME Storage Components":	{
+			"conversions":	[
+				{
+					"count": 1,
+					"output": "extracells:storage.component|0",
+					"ingredients":	{
+						"OD|dustGlowstone": 4,
+						"appliedenergistics2:item.ItemMultiMaterial|38": 3,
+						"appliedenergistics2:item.ItemMultiMaterial|24": 1,
+						"appliedenergistics2:item.ItemMultiMaterial|22": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.component|1",
+					"ingredients":	{
+						"OD|dustGlowstone": 4,
+						"extracells:storage.component|0": 3,
+						"appliedenergistics2:item.ItemMultiMaterial|24": 1,
+						"appliedenergistics2:item.ItemMultiMaterial|22": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.component|2",
+					"ingredients":	{
+						"OD|dustGlowstone": 4,
+						"extracells:storage.component|1": 3,
+						"appliedenergistics2:item.ItemMultiMaterial|24": 1,
+						"appliedenergistics2:item.ItemMultiMaterial|22": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.component|3",
+					"ingredients":	{
+						"OD|dustGlowstone": 4,
+						"extracells:storage.component|2": 3,
+						"appliedenergistics2:item.ItemMultiMaterial|24": 1,
+						"appliedenergistics2:item.ItemMultiMaterial|22": 1
+					}
+				}
+			]
+		},
+		"Fluid Storage Components":	{
+			"conversions":	[
+				{
+					"count": 1,
+					"output": "extracells:storage.component|4",
+					"ingredients":	{
+						"OD|dyeBlue": 4,
+						"OD|crystalCertusQuartz": 4,
+						"appliedenergistics2:item.ItemMultiMaterial|2": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.component|5",
+					"ingredients":	{
+						"OD|dyeBlue": 4,
+						"extracells:storage.component|4": 3,
+						"appliedenergistics2:item.ItemMultiMaterial|23": 1,
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.component|6",
+					"ingredients":	{
+						"OD|dyeBlue": 4,
+						"extracells:storage.component|5": 3,
+						"appliedenergistics2:item.ItemMultiMaterial|24": 1,
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.component|7",
+					"ingredients":	{
+						"OD|dyeBlue": 4,
+						"extracells:storage.component|6": 3,
+						"appliedenergistics2:item.ItemMultiMaterial|24": 1,
+						"appliedenergistics2:tile.BlockQuartzGlass|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.component|8",
+					"ingredients":	{
+						"OD|dyeBlue": 4,
+						"extracells:storage.component|7": 3,
+						"appliedenergistics2:item.ItemMultiMaterial|24": 1,
+						"appliedenergistics2:item.ItemMultiMaterial|22": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.component|9",
+					"ingredients":	{
+						"OD|dyeBlue": 4,
+						"extracells:storage.component|8": 3,
+						"appliedenergistics2:item.ItemMultiMaterial|24": 1,
+						"appliedenergistics2:item.ItemMultiMaterial|22": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "extracells:storage.component|10",
+					"ingredients":	{
+						"OD|dyeBlue": 4,
+						"extracells:storage.component|9": 3,
+						"appliedenergistics2:item.ItemMultiMaterial|24": 1,
+						"appliedenergistics2:item.ItemMultiMaterial|22": 1
+					}
+				}
+			]
+		}
+	},
+	"values":	{
+		"before":	{
+			
+		},
+		"after":	{
+			
+		},
+		"conversion": [
+			
+		]
+	}
+}
