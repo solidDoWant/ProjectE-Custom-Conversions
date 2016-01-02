@@ -1,0 +1,2122 @@
+{
+	"groups":	{
+		"blocks":	{
+			"conversions": [
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock|0",
+					"ingredients":	{
+						"OD|ingotOsmium": 9
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock|1",
+					"ingredients":	{
+						"OD|ingotBronze": 9
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock|2",
+					"ingredients":	{
+						"OD|ingotRefinedObsidian": 9
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock|3",
+					"ingredients":	{
+						"OD|itemCharcoal": 9
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock|4",
+					"ingredients":	{
+						"OD|ingotRefinedGlowstone": 9
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock|5",
+					"ingredients":	{
+						"OD|ingotSteel": 9
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock|6",
+					"ingredients":	{
+						"OD|circuitBasic": 1,
+						"OD|cobblestone": 8
+					}
+				},
+				{
+					"count": 9,
+					"output": "Mekanism:BasicBlock|7",
+					"ingredients":	{
+						"OD|ingotRefinedGlowstone": 1,
+						"OD|ingotRefinedObsidian": 8
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock|8",
+					"ingredients":	{
+						"OD|ingotSteel": 4,
+						"OD|ingotOsmium": 1
+					}
+				},
+				{
+					"count": 4,
+					"output": "Mekanism:BasicBlock|9",
+					"ingredients":	{
+						"OD|ingotSteel": 4,
+						"minecraft:bucket|0": 1
+					}
+				},
+				{
+					"count": 4,
+					"output": "Mekanism:BasicBlock|10",
+					"ingredients":	{
+						"Mekanism:BasicBlock|9": 4,
+						"OD|blockGlass": 1
+					}
+				},
+				{
+					"count": 2,
+					"output": "Mekanism:BasicBlock|11",
+					"ingredients":	{
+						"Mekanism:BasicBlock|9": 4,
+						"OD|circuitBasic": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock|12",
+					"ingredients":	{
+						"OD|ingotCopper": 9
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock|13",
+					"ingredients":	{
+						"OD|ingotTin": 9
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock|14",
+					"ingredients":	{
+						"Mekanism:BasicBlock|8": 2,
+						"OD|circuitBasic": 4,
+						"OD|blockCopper": 1,
+						"OD|paneGlass": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock|15",
+					"ingredients":	{
+						"Mekanism:BasicBlock|8": 1,
+						"OD|circuitBasic": 2,
+						"OD|ingotCopper": 4,
+						"Mekanism:BasicBlock|11": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock2|0",
+					"ingredients":	{
+						"Mekanism:BasicBlock|9": 1,
+						"OD|ingotCopper": 8
+					}
+				},
+				{
+					"count": 4,
+					"output": "Mekanism:BasicBlock2|1",
+					"ingredients":	{
+						"OD|ingotSteel": 4,
+						"Mekanism:EnergyTablet|0": 1
+					}
+				},
+				
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock2|2",
+					"ingredients":	{
+						"Mekanism:BasicBlock2|1": 4,
+						"OD|circuitElite": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock2|3@{tier:0}",
+					"ingredients":	{
+						"Mekanism:EnergyCube|0@{tier: \"Basic\"}": 1,
+						"Mekanism:EnergyTablet|0": 4,
+						"Mekanism:OtherDust|4": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock2|3@{tier:1}",
+					"ingredients":	{
+						"Mekanism:EnergyCube|0@{tier: \"Advanced\"}": 1,
+						"Mekanism:EnergyTablet|0": 4,
+						"Mekanism:BasicBlock2|3@{tier:0}": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock2|3@{tier:2}",
+					"ingredients":	{
+						"Mekanism:EnergyCube|0@{tier: \"Elite\"}": 1,
+						"Mekanism:EnergyTablet|0": 4,
+						"Mekanism:BasicBlock2|3@{tier:1}": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock2|3@{tier:3}",
+					"ingredients":	{
+						"Mekanism:EnergyCube|0@{tier: \"Ultimate\"}": 1,
+						"Mekanism:EnergyTablet|0": 4,
+						"Mekanism:BasicBlock2|3@{tier:2}": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock2|4@{tier:0}",
+					"ingredients":	{
+						"Mekanism:EnergyCube|0@{tier: \"Basic\"}": 1,
+						"OD|circuitBasic": 4,
+						"Mekanism:OtherDust|4": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock2|4@{tier:1}",
+					"ingredients":	{
+						"Mekanism:EnergyCube|0@{tier: \"Advanced\"}": 1,
+						"OD|circuitAdvanced": 4,
+						"Mekanism:BasicBlock2|4@{tier:0}": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock2|4@{tier:2}",
+					"ingredients":	{
+						"Mekanism:EnergyCube|0@{tier: \"Elite\"}": 1,
+						"OD|circuitElite": 4,
+						"Mekanism:BasicBlock2|4@{tier:1}": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock2|4@{tier:3}",
+					"ingredients":	{
+						"Mekanism:EnergyCube|0@{tier: \"Ultimate\"}": 1,
+						"OD|circuitUltimate": 4,
+						"Mekanism:BasicBlock2|4@{tier:2}": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|0",
+					"ingredients":	{
+						"Mekanism:BasicBlock|8": 1,
+						"OD|circuitBasic": 2,
+						"OD|dustRedstone": 4,
+						"OD|ingotIron": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|1",
+					"ingredients":	{
+						"Mekanism:BasicBlock|8": 1,
+						"OD|circuitAdvanced": 2,
+						"Mekanism:EnrichedAlloy|0": 4,
+						"minecraft:bucket|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|2",
+					"ingredients":	{
+						"Mekanism:BasicBlock|8": 1,
+						"Mekanism:ReinforcedAlloy|0": 4,
+						"OD|circuitElite": 2,
+						"minecraft:cobblestone|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|3",
+					"ingredients":	{
+						"Mekanism:BasicBlock|8": 1,
+						"OD|dustRedstone": 4,
+						"OD|circuitBasic": 2,
+						"minecraft:lava_bucket|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|4",
+					"ingredients":	{
+						"Mekanism:AtomicAlloy|0": 2,
+						"OD|circuitBasic": 1,
+						"Mekanism:MachineBlock|15": 2,
+						"Mekanism:Robit|0": 1,
+						"Mekanism:TeleportationCore|0": 2,
+						"Mekanism:BasicBlock2|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|5@{recipeType: 0}",
+					"ingredients":	{
+						"OD|dustRedstone": 4,
+						"OD|circuitBasic": 2,
+						"OD|ingotIron": 2,
+						"Mekanism:MachineBlock|10": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|5@{recipeType: 1}",
+					"ingredients":	{
+						"OD|dustRedstone": 4,
+						"OD|circuitBasic": 2,
+						"OD|ingotIron": 2,
+						"Mekanism:MachineBlock|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|5@{recipeType: 2}",
+					"ingredients":	{
+						"OD|dustRedstone": 4,
+						"OD|circuitBasic": 2,
+						"OD|ingotIron": 2,
+						"Mekanism:MachineBlock|3": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|5@{recipeType: 3}",
+					"ingredients":	{
+						"OD|dustRedstone": 4,
+						"OD|circuitBasic": 2,
+						"OD|ingotIron": 2,
+						"Mekanism:MachineBlock|1": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|5@{recipeType: 4}",
+					"ingredients":	{
+						"OD|dustRedstone": 4,
+						"OD|circuitBasic": 2,
+						"OD|ingotIron": 2,
+						"Mekanism:MachineBlock|2": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|5@{recipeType: 5}",
+					"ingredients":	{
+						"OD|dustRedstone": 4,
+						"OD|circuitBasic": 2,
+						"OD|ingotIron": 2,
+						"Mekanism:MachineBlock|9": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|5@{recipeType: 6}",
+					"ingredients":	{
+						"OD|dustRedstone": 4,
+						"OD|circuitBasic": 2,
+						"OD|ingotIron": 2,
+						"Mekanism:MachineBlock2|3": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|6@{recipeType: 0}",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 4,
+						"OD|circuitAdvanced": 2,
+						"OD|ingotOsmium": 2,
+						"Mekanism:MachineBlock|5@{recipeType: 0}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|6@{recipeType: 1}",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 4,
+						"OD|circuitAdvanced": 2,
+						"OD|ingotOsmium": 2,
+						"Mekanism:MachineBlock|5@{recipeType: 1}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|6@{recipeType: 2}",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 4,
+						"OD|circuitAdvanced": 2,
+						"OD|ingotOsmium": 2,
+						"Mekanism:MachineBlock|5@{recipeType: 2}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|6@{recipeType: 3}",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 4,
+						"OD|circuitAdvanced": 2,
+						"OD|ingotOsmium": 2,
+						"Mekanism:MachineBlock|5@{recipeType: 3}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|6@{recipeType: 4}",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 4,
+						"OD|circuitAdvanced": 2,
+						"OD|ingotOsmium": 2,
+						"Mekanism:MachineBlock|5@{recipeType: 4}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|6@{recipeType: 5}",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 4,
+						"OD|circuitAdvanced": 2,
+						"OD|ingotOsmium": 2,
+						"Mekanism:MachineBlock|5@{recipeType: 5}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|6@{recipeType: 6}",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 4,
+						"OD|circuitAdvanced": 2,
+						"OD|ingotOsmium": 2,
+						"Mekanism:MachineBlock|5@{recipeType: 6}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|7@{recipeType: 0}",
+					"ingredients":	{
+						"Mekanism:ReinforcedAlloy|0": 4,
+						"OD|circuitElite": 2,
+						"OD|ingotGold": 2,
+						"Mekanism:MachineBlock|6@{recipeType: 0}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|7@{recipeType: 1}",
+					"ingredients":	{
+						"Mekanism:ReinforcedAlloy|0": 4,
+						"OD|circuitElite": 2,
+						"OD|ingotGold": 2,
+						"Mekanism:MachineBlock|6@{recipeType: 1}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|7@{recipeType: 2}",
+					"ingredients":	{
+						"Mekanism:ReinforcedAlloy|0": 4,
+						"OD|circuitElite": 2,
+						"OD|ingotGold": 2,
+						"Mekanism:MachineBlock|6@{recipeType: 2}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|7@{recipeType: 3}",
+					"ingredients":	{
+						"Mekanism:ReinforcedAlloy|0": 4,
+						"OD|circuitElite": 2,
+						"OD|ingotGold": 2,
+						"Mekanism:MachineBlock|6@{recipeType: 3}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|7@{recipeType: 4}",
+					"ingredients":	{
+						"Mekanism:ReinforcedAlloy|0": 4,
+						"OD|circuitElite": 2,
+						"OD|ingotGold": 2,
+						"Mekanism:MachineBlock|6@{recipeType: 4}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|7@{recipeType: 5}",
+					"ingredients":	{
+						"Mekanism:ReinforcedAlloy|0": 4,
+						"OD|circuitElite": 2,
+						"OD|ingotGold": 2,
+						"Mekanism:MachineBlock|6@{recipeType: 5}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|7@{recipeType: 6}",
+					"ingredients":	{
+						"Mekanism:ReinforcedAlloy|0": 4,
+						"OD|circuitElite": 2,
+						"OD|ingotGold": 2,
+						"Mekanism:MachineBlock|6@{recipeType: 6}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|8",
+					"ingredients":	{
+						"OD|dustRedstone": 2,
+						"OD|ingotIron": 4,
+						"OD|ingotOsmium": 1,
+						"minecraft:furnace|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|9",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 4,
+						"OD|circuitAdvanced": 2,
+						"OD|ingotOsmium": 2,
+						"Mekanism:MachineBlock|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|10",
+					"ingredients":	{
+						"OD|dustRedstone": 4,
+						"OD|circuitBasic": 2,
+						"OD|blockGlass": 2,
+						"Mekanism:MachineBlock|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|11",
+					"ingredients":	{
+						"Mekanism:BasicBlock|8": 4,
+						"OD|circuitBasic": 4,
+						"Mekanism:TeleportationCore|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|12",
+					"ingredients":	{
+						"Mekanism:BasicBlock|8": 1,
+						"OD|ingotOsmium": 3,
+						"minecraft:bucket|0": 1,
+						"Mekanism:EnrichedAlloy|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|13",
+					"ingredients":	{
+						"minecraft:piston|0": 1,
+						"OD|circuitBasic": 1,
+						"OD|ingotIron": 7
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|14",
+					"ingredients":	{
+						"minecraft:stone_pressure_plate|0": 3,
+						"OD|ingotSteel": 2,
+						"Mekanism:EnergyTablet|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|15",
+					"ingredients":	{
+						"OD|chestWood": 2,
+						"OD|blockGlass": 1,
+						"OD|ingotSteel": 5,
+						"OD|circuitBasic": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock2|0",
+					"ingredients":	{
+						"OD|circuitBasic": 2,
+						"OD|blockGlass": 4,
+						"Mekanism:EnergyTablet|0": 1,
+						"Mekanism:GasTank|100@{}": 1,
+						"Mekanism:MachineBlock2|11": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock2|1",
+					"ingredients":	{
+						"OD|circuitBasic": 2,
+						"Mekanism:EnrichedAlloy|0": 4,
+						"Mekanism:BasicBlock|9": 1,
+						"Mekanism:GasTank|100@{}": 1,
+						"Mekanism:MachineBlock|13": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock2|2",
+					"ingredients":	{
+						"OD|circuitBasic": 2,
+						"Mekanism:EnrichedAlloy|0": 4,
+						"Mekanism:BasicBlock|9": 1,
+						"Mekanism:GasTank|100@{}": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock2|3",
+					"ingredients":	{
+						"Mekanism:ReinforcedAlloy|0": 4,
+						"Mekanism:MachineBlock|9": 1,
+						"OD|ingotGold": 2,
+						"OD|circuitElite": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock2|4",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 2,
+						"Mekanism:ElectrolyticCore|0": 1,
+						"OD|ingotIron": 4,
+						"OD|dustRedstone": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock2|5",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 2,
+						"Mekanism:BasicBlock|8": 1,
+						"OD|ingotIron": 4,
+						"OD|circuitBasic": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock2|6",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 2,
+						"Mekanism:AtomicAlloy|0": 1,
+						"Mekanism:GasTank|100@{}": 2,
+						"OD|circuitBasic": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock2|7",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 2,
+						"Mekanism:MachineBlock|8": 1,
+						"Mekanism:GasTank|100@{}": 1,
+						"OD|circuitBasic": 4,
+						"minecraft:bucket|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock2|8",
+					"ingredients":	{
+						"Mekanism:AtomicAlloy|0": 2,
+						"Mekanism:MachineBlock|8": 1,
+						"Mekanism:GasTank|100@{}": 2,
+						"OD|circuitBasic": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock2|9",
+					"ingredients":	{
+						"OD|ingotTin": 5,
+						"Mekanism:MachineBlock|8": 1,
+						"OD|gemLapis": 1,
+						"OD|circuitBasic": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock2|10",
+					"ingredients":	{
+						"OD|circuitBasic": 2,
+						"Mekanism:EnrichedAlloy|0": 1,
+						"Mekanism:GasTank|100@{}": 2,
+						"Mekanism:BasicBlock|9": 1,
+						"Mekanism:BasicBlock|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock2|11",
+					"ingredients":	{
+						"OD|blockGlass": 2,
+						"OD|ingotIron": 6,
+						"OD|circuitBasic": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock2|12",
+					"ingredients":	{
+						"Mekanism:MachineBlock|12": 1,
+						"OD|ingotTin": 6,
+						"OD|circuitBasic": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock2|13",
+					"ingredients":	{
+						"Mekanism:MachineBlock|8": 1,
+						"Mekanism:ReinforcedAlloy|0": 3,
+						"OD|gemDiamond": 1,
+						"Mekanism:EnergyTablet|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock2|14",
+					"ingredients":	{
+						"OD|ingotSteel": 7,
+						"OD|gemDiamond": 1,
+						"Mekanism:EnergyCube|0@{tier: \"Basic\"}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock2|15",
+					"ingredients":	{
+						"Mekanism:MachineBlock2|14": 1,
+						"Mekanism:MachineBlock|13": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock3|1",
+					"ingredients":	{
+						"Mekanism:BasicBlock|8": 1,
+						"Mekanism:ReinforcedAlloy|0": 2,
+						"Mekanism:Polyethene|2": 1,
+						"OD|circuitElite": 2,
+						"OD|ingotCopper": 3
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock3|3",
+					"ingredients":	{
+						"Mekanism:Dictionary|0": 1,
+						"OD|chestWood": 1,
+						"OD|circuitBasic": 2,
+						"OD|ingotSteel": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:EnergyCube|0@{tier:\"Basic\"}",
+					"ingredients":	{
+						"OD|dustRedstone": 4,
+						"Mekanism:EnergyTablet|0": 2,
+						"OD|ingotIron": 2,
+						"Mekanism:BasicBlock|8": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:EnergyCube|0@{tier:\"Advanced\"}",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 4,
+						"Mekanism:EnergyTablet|0": 2,
+						"OD|ingotOsmium": 2,
+						"Mekanism:EnergyCube|0@{tier:\"Basic\"}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:EnergyCube|0@{tier:\"Elite\"}",
+					"ingredients":	{
+						"Mekanism:ReinforcedAlloy|0": 4,
+						"Mekanism:EnergyTablet|0": 2,
+						"OD|ingotGold": 2,
+						"Mekanism:EnergyCube|0@{tier:\"Advanced\"}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:EnergyCube|0@{tier:\"Ultimate\"}",
+					"ingredients":	{
+						"Mekanism:AtomicAlloy|0": 4,
+						"Mekanism:EnergyTablet|0": 2,
+						"OD|gemDiamond": 2,
+						"Mekanism:EnergyCube|0@{tier:\"Elite\"}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:ObsidianTNT|0",
+					"ingredients":	{
+						"OD|blockObsidian": 6,
+						"minecraft:tnt|0": 3
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:GasTank|100@{}",
+					"ingredients":	{
+						"OD|ingotOsmium": 8,
+						"OD|dustIron": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:CardboardBox|0",
+					"ingredients":	{
+						"OD|dustWood": 4
+					}
+				},
+				{
+					"count": 4,
+					"output": "Mekanism:PlasticBlock|15",
+					"ingredients":	{
+						"Mekanism:Polyethene|2": 8
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:SaltBlock|0",
+					"ingredients":	{
+						"Mekanism:Salt|0": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:Robit|0",
+					"ingredients":	{
+						"OD|ingotSteel": 1,
+						"Mekanism:EnergyTablet|0": 2,
+						"OD|ingotRefinedObsidian": 2,
+						"Mekanism:MachineBlock|13": 1,
+						"Mekanism:AtomicAlloy|0": 1
+					}
+				}
+			]
+		},
+		"ingots":	{
+			"conversions": [
+				{
+					"count": 1,
+					"output": "Mekanism:Ingot|0",
+					"ingredients":	{
+						"OD|ingotOsmium": 1,
+						"OD|dustRefinedObsidian": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:Ingot|3",
+					"ingredients":	{
+						"OD|ingotOsmium": 1,
+						"OD|dustGlowstone": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:Ingot|4",
+					"ingredients":	{
+						"Mekanism:OtherDust|1": 1
+					}
+				}
+			]
+		},
+		"dust":{
+			"conversions":	[
+				{
+					"count": 1,
+					"output": "Mekanism:Dust|0",
+					"ingredients":	{
+						"OD|ingotIron": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:Dust|1",
+					"ingredients":	{
+						"OD|ingotGold": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:Dust|2",
+					"ingredients":	{
+						"OD|ingotOsmium": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:Dust|3",
+					"ingredients":	{
+						"OD|ingotCopper": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:Dust|4",
+					"ingredients":	{
+						"OD|ingotTin": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:Dust|5",
+					"ingredients":	{
+						"OD|ingotSilver": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:Dust|6",
+					"ingredients":	{
+						"OD|ingotLead": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:OtherDust|0",
+					"ingredients":	{
+						"OD|gemDiamond": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:OtherDust|1",
+					"ingredients":	{
+						"Mekanism:EnrichedIron|0": 1,
+						"minecraft:coal|1": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:OtherDust|2",
+					"ingredients":	{
+						"OD|ingotLead": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:OtherDust|4",
+					"ingredients":	{
+						"FLUID|lithium": 100
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:OtherDust|5",
+					"ingredients":	{
+						"OD|dustObsidian": 1,
+						"OD|dustDiamond": 1
+					}
+				},
+				{
+					"count": 2,
+					"output": "Mekanism:OtherDust|6",
+					"ingredients":	{
+						"OD|blockObsidian": 1
+					}
+				}
+				
+			]
+			
+		},
+		"crafting components":{
+			"conversions":	[
+				{
+					"count": 1,
+					"output": "Mekanism:ControlCircuit|0",
+					"ingredients":	{
+						"OD|ingotOsmium": 1,
+						"OD|dustRedstone": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:EnrichedIron|0",
+					"ingredients":	{
+						"minecraft:coal|1": 1,
+						"OD|ingotIron": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:EnergyTablet|0",
+					"ingredients":	{
+						"OD|ingotGold": 3,
+						"OD|dustRedstone": 4,
+						"OD|alloyAdvanced": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:EnrichedAlloy|0",
+					"ingredients":	{
+						"OD|ingotIron": 1,
+						"OD|dustRedstone": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:ControlCircuit|1",
+					"ingredients":	{
+						"Mekanism:ControlCircuit|0": 1,
+						"Mekanism:EnrichedAlloy|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:ReinforcedAlloy|0",
+					"ingredients":	{
+						"Mekanism:OtherDust|0": 1,
+						"Mekanism:EnrichedAlloy|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:ControlCircuit|2",
+					"ingredients":	{
+						"Mekanism:ControlCircuit|1": 1,
+						"Mekanism:ReinforcedAlloy|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:ControlCircuit|3",
+					"ingredients":	{
+						"Mekanism:ControlCircuit|2": 1,
+						"Mekanism:AtomicAlloy|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:AtomicAlloy|0",
+					"ingredients":	{
+						"OD|dustRefinedObsidian": 1,
+						"Mekanism:ReinforcedAlloy|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:TeleportationCore|0",
+					"ingredients":	{
+						"OD|gemLapis": 4,
+						"Mekanism:AtomicAlloy|0": 2,
+						"OD|ingotGold": 2,
+						"OD|gemDiamond": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:ElectrolyticCore|0",
+					"ingredients":	{
+						"OD|dustOsmium": 2,
+						"Mekanism:EnrichedAlloy|0": 5,
+						"OD|dustIron": 1,
+						"OD|dustGold": 1
+					}
+				},
+				{
+					"count": 3,
+					"output": "Mekanism:Sawdust|0",
+					"ingredients":	{
+						"minecraft:paper|0": 6
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:Salt|0",
+					"ingredients":	{
+						"FLUID|brine": 15
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:Polyethene|3",
+					"ingredients":	{
+						"Mekanism:Polyethene|1": 2
+					}
+				},
+				{
+					"count": 4,
+					"output": "Mekanism:BioFuel|0",
+					"ingredients":	{
+						"minecraft:tallgrass|0": 1
+					}
+				},
+				{
+					"count": 4,
+					"output": "MekanismGenerators:SolarPanel|0",
+					"ingredients":	{
+						"OD|paneGlass": 3,
+						"OD|dustRedstone": 2,
+						"OD|ingotOsmium": 3,
+						"Mekanism:EnrichedAlloy|0": 1
+					}
+				}
+			]
+		},
+		"Tools": {
+			"conversions":	[
+				{
+					"count": 1,
+					"output": "Mekanism:Dictionary|0",
+					"ingredients":	{
+						"OD|circuitBasic": 1,
+						"minecraft:book|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:ElectricBow|0",
+					"ingredients":	{
+						"minecraft:string|0": 3,
+						"Mekanism:EnrichedAlloy|0": 2,
+						"Mekanism:EnergyTablet|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:AtomicDisassembler|0",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 4,
+						"Mekanism:AtomicAlloy|0": 1,
+						"Mekanism:EnergyTablet|0": 1,
+						"OD|ingotRefinedObsidian": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:PortableTeleporter|0",
+					"ingredients":	{
+						"OD|circuitBasic": 2,
+						"Mekanism:EnergyTablet|0": 2,
+						"Mekanism:TeleportationCore|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:Configurator|0",
+					"ingredients":	{
+						"OD|stickWood": 1,
+						"OD|gemLapis": 1,
+						"Mekanism:EnergyTablet|0": 1,
+						"Mekanism:EnrichedAlloy|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:NetworkReader|0",
+					"ingredients":	{
+						"OD|ingotSteel": 1,
+						"OD|blockGlass": 1,
+						"Mekanism:EnergyTablet|0": 1,
+						"Mekanism:EnrichedAlloy|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:WalkieTalkie|0",
+					"ingredients":	{
+						"OD|ingotOsmium": 1,
+						"OD|ingotSteel": 3,
+						"OD|circuitBasic": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:Jetpack|0@{}",
+					"ingredients":	{
+						"OD|ingotTin": 3,
+						"OD|ingotSteel": 2,
+						"OD|circuitBasic": 1,
+						"Mekanism:GasTank|100@{}": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:GasMask|0",
+					"ingredients":	{
+						"OD|blockGlass": 2,
+						"OD|ingotSteel": 3,
+						"OD|circuitBasic": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:ScubaTank|0@{}",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 2,
+						"OD|ingotSteel": 3,
+						"OD|circuitBasic": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:FreeRunners|0",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 2,
+						"Mekanism:EnergyTablet|0": 2,
+						"OD|circuitBasic": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:ArmoredJetpack|0@{}",
+					"ingredients":	{
+						"Mekanism:Jetpack|0@{}": 1,
+						"OD|dustDiamond": 2,
+						"OD|ingotCopper": 2,
+						"OD|blockSteel": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:FilterCard|0",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 4,
+						"OD|circuitBasic": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:SeismicReader|0",
+					"ingredients":	{
+						"OD|ingotSteel": 7,
+						"OD|gemLapis": 1,
+						"Mekanism:EnergyTablet|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:Flamethrower|0@{}",
+					"ingredients":	{
+						"OD|ingotTin": 4,
+						"OD|ingotCopper": 2,
+						"OD|circuitAdvanced": 1,
+						"Mekanism:GasTank|100@{}": 1,
+						"minecraft:flint_and_steel|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:GaugeDropper|0@{}",
+					"ingredients":	{
+						"OD|ingotOsmium": 1,
+						"OD|paneGlass": 5
+					}
+				}
+			]
+		},
+		"Fluids": {
+			"conversions":	[
+				{
+					"count": 1,
+					"output": "FLUID|lithium",
+					"ingredients":	{
+						"FLUID|brine": 10
+					}
+				}
+			]
+		},
+		"cables-pipes-tubes-transporters": {
+			"conversions": [
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|0",
+					"ingredients":	{
+						"OD|ingotSteel": 2,
+						"OD|dustRedstone": 1
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|1",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 1,
+						"Mekanism:PartTransmitter|0": 8
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|2",
+					"ingredients":	{
+						"Mekanism:ReinforcedAlloy|0": 1,
+						"Mekanism:PartTransmitter|1": 8
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|3",
+					"ingredients":	{
+						"Mekanism:AtomicAlloy|0": 1,
+						"Mekanism:PartTransmitter|2": 8
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|4",
+					"ingredients":	{
+						"OD|ingotSteel": 2,
+						"minecraft:bucket|0": 1
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|5",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 1,
+						"Mekanism:PartTransmitter|4": 8
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|6",
+					"ingredients":	{
+						"Mekanism:ReinforcedAlloy|0": 1,
+						"Mekanism:PartTransmitter|5": 8
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|7",
+					"ingredients":	{
+						"Mekanism:AtomicAlloy|0": 1,
+						"Mekanism:PartTransmitter|6": 8
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|8",
+					"ingredients":	{
+						"OD|ingotSteel": 2,
+						"OD|blockGlass": 1
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|9",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 1,
+						"Mekanism:PartTransmitter|8": 8
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|10",
+					"ingredients":	{
+						"Mekanism:ReinforcedAlloy|0": 1,
+						"Mekanism:PartTransmitter|9": 8
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|11",
+					"ingredients":	{
+						"Mekanism:AtomicAlloy|0": 1,
+						"Mekanism:PartTransmitter|10": 8
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|12",
+					"ingredients":	{
+						"OD|ingotSteel": 2,
+						"OD|circuitBasic": 1
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|13",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 1,
+						"Mekanism:PartTransmitter|12": 8
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|14",
+					"ingredients":	{
+						"Mekanism:ReinforcedAlloy|0": 1,
+						"Mekanism:PartTransmitter|13": 8
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|15",
+					"ingredients":	{
+						"Mekanism:AtomicAlloy|0": 1,
+						"Mekanism:PartTransmitter|14": 8
+					}
+				},
+				{
+					"count": 2,
+					"output": "Mekanism:PartTransmitter|16",
+					"ingredients":	{
+						"OD|ingotSteel": 2,
+						"minecraft:iron_bars|0": 1
+					}
+				},
+				{
+					"count": 2,
+					"output": "Mekanism:PartTransmitter|17",
+					"ingredients":	{
+						"OD|ingotSteel": 2,
+						"minecraft:iron_bars|0": 1,
+						"OD|dustRedstone": 6
+					}
+				}
+			]
+		},
+		"Upgrades": {
+			"conversions": [
+				{
+					"count": 1,
+					"output": "Mekanism:SpeedUpgrade|0",
+					"ingredients":	{
+						"OD|blockGlass": 2,
+						"OD|dustOsmium": 1,
+						"Mekanism:EnrichedAlloy|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:EnergyUpgrade|0",
+					"ingredients":	{
+						"OD|blockGlass": 2,
+						"OD|dustGold": 1,
+						"Mekanism:EnrichedAlloy|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:FilterUpgrade|0",
+					"ingredients":	{
+						"OD|blockGlass": 2,
+						"OD|dustTin": 1,
+						"Mekanism:EnrichedAlloy|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:GasUpgrade|0",
+					"ingredients":	{
+						"OD|blockGlass": 2,
+						"OD|dustIron": 1,
+						"Mekanism:EnrichedAlloy|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:FactoryInstaller|0",
+					"ingredients":	{
+						"OD|dustRedstone": 4,
+						"OD|ingotIron": 2,
+						"OD|plankWood": 1,
+						"OD|circuitBasic": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:FactoryInstaller|1",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 4,
+						"OD|ingotOsmium": 2,
+						"OD|plankWood": 1,
+						"OD|circuitAdvanced": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:FactoryInstaller|2",
+					"ingredients":	{
+						"Mekanism:ReinforcedAlloy|0": 4,
+						"OD|ingotGold": 2,
+						"OD|plankWood": 1,
+						"OD|circuitElite": 2
+					}
+				}
+			]
+		},
+		"Compressed": {
+			"conversions": [
+				{
+					"count": 1,
+					"output": "Mekanism:CompressedCarbon|0",
+					"ingredients":	{
+						"minecraft:coal|1": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:CompressedRedstone|0",
+					"ingredients":	{
+						"OD|dustRedstone": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:CompressedDiamond|0",
+					"ingredients":	{
+						"OD|gemDiamond": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:CompressedObsidian|0",
+					"ingredients":	{
+						"OD|dustRefinedObsidian": 1
+					}
+				}
+			]
+		},
+		"Generators": {
+			"conversions": [
+				{
+					"count": 1,
+					"output": "MekanismGenerators:Generator|0",
+					"ingredients":	{
+						"OD|ingotIron": 3,
+						"OD|ingotCopper": 2,
+						"OD|plankWood": 2,
+						"OD|ingotOsmium": 1,
+						"minecraft:furnace|0": 1
+					}
+				},{
+					"count": 1,
+					"output": "MekanismGenerators:Generator|1",
+					"ingredients":	{
+						"MekanismGenerators:SolarPanel|0": 3,
+						"Mekanism:EnrichedAlloy|0": 2,
+						"Mekanism:EnergyTablet|0": 1,
+						"OD|dustOsmium": 2,
+						"OD|ingotIron": 1
+					}
+				},{
+					"count": 1,
+					"output": "MekanismGenerators:Generator|3",
+					"ingredients":	{
+						"OD|ingotOsmium": 4,
+						"Mekanism:BasicBlock|8": 2,
+						"Mekanism:EnrichedAlloy|0": 2,
+						"Mekanism:ElectrolyticCore|0": 1
+					}
+				},{
+					"count": 1,
+					"output": "MekanismGenerators:Generator|4",
+					"ingredients":	{
+						"OD|ingotIron": 2,
+						"OD|dustRedstone": 2,
+						"OD|circuitBasic": 1,
+						"Mekanism:EnrichedAlloy|0": 2,
+						"Mekanism:BioFuel|0": 2
+					}
+				},{
+					"count": 1,
+					"output": "MekanismGenerators:Generator|5",
+					"ingredients":	{
+						"OD|ingotIron": 3,
+						"Mekanism:EnrichedAlloy|0": 2,
+						"MekanismGenerators:Generator|1": 4
+					}
+				},{
+					"count": 1,
+					"output": "MekanismGenerators:Generator|6",
+					"ingredients":	{
+						"OD|ingotOsmium": 3,
+						"OD|circuitBasic": 1,
+						"Mekanism:EnrichedAlloy|0": 1,
+						"Mekanism:EnergyTablet|0": 2
+					}
+				}
+			]
+		},
+		"Reactor": {
+			"conversions": [
+				{
+					"count": 1,
+					"output": "MekanismGenerators:Reactor|0",
+					"ingredients":	{
+						"OD|paneGlass": 1,
+						"OD|circuitUltimate": 2,
+						"Mekanism:GasTank|100@{}": 1,
+						"MekanismGenerators:Reactor|1": 5
+					}
+				},
+				{
+					"count": 4,
+					"output": "MekanismGenerators:Reactor|1",
+					"ingredients":	{
+						"Mekanism:AtomicAlloy|0": 1,
+						"Mekanism:BasicBlock|8": 4
+					}
+				},
+				{
+					"count": 2,
+					"output": "MekanismGenerators:Reactor|3",
+					"ingredients":	{
+						"MekanismGenerators:Reactor|1": 4,
+						"OD|circuitUltimate": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismGenerators:Reactor|4",
+					"ingredients":	{
+						"MekanismGenerators:Reactor|1": 4,
+						"OD|dustRedstone": 1
+					}
+				},
+				{
+					"count": 4,
+					"output": "MekanismGenerators:ReactorGlass|0",
+					"ingredients":	{
+						"MekanismGenerators:Reactor|1": 4,
+						"OD|blockGlass": 1
+					}
+				},
+				{
+					"count": 2,
+					"output": "MekanismGenerators:ReactorGlass|1",
+					"ingredients":	{
+						"MekanismGenerators:ReactorGlass|0": 4,
+						"OD|blockRedstone": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismGenerators:Hohlraum|0@{}",
+					"ingredients":	{
+						"OD|dustGold": 4,
+						"minecraft:coal|1": 1
+					}
+				}
+			]
+		},
+		"MekanismTools": {
+			"conversions": [
+				{
+					"count": 1,
+					"output": "MekanismTools:WoodPaxel|0",
+					"ingredients":	{
+						"minecraft:wooden_axe|0": 1,
+						"minecraft:wooden_pickaxe|0": 1,
+						"minecraft:wooden_shovel|0": 1,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:StonePaxel|0",
+					"ingredients":	{
+						"minecraft:stone_axe|0": 1,
+						"minecraft:stone_pickaxe|0": 1,
+						"minecraft:stone_shovel|0": 1,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:IronPaxel|0",
+					"ingredients":	{
+						"minecraft:iron_axe|0": 1,
+						"minecraft:iron_pickaxe|0": 1,
+						"minecraft:iron_shovel|0": 1,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:DiamondPaxel|0",
+					"ingredients":	{
+						"minecraft:diamond_axe|0": 1,
+						"minecraft:diamond_pickaxe|0": 1,
+						"minecraft:diamond_shovel|0": 1,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:GoldPaxel|0",
+					"ingredients":	{
+						"minecraft:golden_axe|0": 1,
+						"minecraft:golden_pickaxe|0": 1,
+						"minecraft:golden_shovel|0": 1,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:ObsidianHelmet|0",
+					"ingredients":	{
+						"OD|ingotRefinedObsidian": 5
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:ObsidianChestplate|0",
+					"ingredients":	{
+						"OD|ingotRefinedObsidian": 8
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:ObsidianLeggings|0",
+					"ingredients":	{
+						"OD|ingotRefinedObsidian": 7
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:ObsidianBoots|0",
+					"ingredients":	{
+						"OD|ingotRefinedObsidian": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:ObsidianPaxel|0",
+					"ingredients":	{
+						"MekanismTools:ObsidianAxe|0": 1,
+						"MekanismTools:ObsidianPickaxe|0": 1,
+						"MekanismTools:ObsidianShovel|0": 1,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:ObsidianAxe|0",
+					"ingredients":	{
+						"OD|ingotRefinedObsidian": 3,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:ObsidianPickaxe|0",
+					"ingredients":	{
+						"OD|ingotRefinedObsidian": 3,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:ObsidianShovel|0",
+					"ingredients":	{
+						"OD|ingotRefinedObsidian": 1,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:ObsidianSword|0",
+					"ingredients":	{
+						"OD|ingotRefinedObsidian": 2,
+						"OD|stickWood": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:LapisLazuliHelmet|0",
+					"ingredients":	{
+						"OD|gemLapis": 5
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:LapisLazuliChestplate|0",
+					"ingredients":	{
+						"OD|gemLapis": 8
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:LapisLazuliLeggings|0",
+					"ingredients":	{
+						"OD|gemLapis": 7
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:LapisLazuliBoots|0",
+					"ingredients":	{
+						"OD|gemLapis": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:LapisLazuliPaxel|0",
+					"ingredients":	{
+						"MekanismTools:LapisLazuliAxe|0": 1,
+						"MekanismTools:LapisLazuliPickaxe|0": 1,
+						"MekanismTools:LapisLazuliShovel|0": 1,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:LapisLazuliAxe|0",
+					"ingredients":	{
+						"OD|gemLapis": 3,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:LapisLazuliPickaxe|0",
+					"ingredients":	{
+						"OD|gemLapis": 3,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:LapisLazuliShovel|0",
+					"ingredients":	{
+						"OD|gemLapis": 1,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:LapisLazuliSword|0",
+					"ingredients":	{
+						"OD|gemLapis": 2,
+						"OD|stickWood": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:OsmiumHelmet|0",
+					"ingredients":	{
+						"OD|ingotOsmium": 5
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:OsmiumChestplate|0",
+					"ingredients":	{
+						"OD|ingotOsmium": 8
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:OsmiumLeggings|0",
+					"ingredients":	{
+						"OD|ingotOsmium": 7
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:OsmiumBoots|0",
+					"ingredients":	{
+						"OD|ingotOsmium": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:OsmiumPaxel|0",
+					"ingredients":	{
+						"MekanismTools:OsmiumAxe|0": 1,
+						"MekanismTools:OsmiumPickaxe|0": 1,
+						"MekanismTools:OsmiumShovel|0": 1,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:OsmiumAxe|0",
+					"ingredients":	{
+						"OD|ingotOsmium": 3,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:OsmiumPickaxe|0",
+					"ingredients":	{
+						"OD|ingotOsmium": 3,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:OsmiumShovel|0",
+					"ingredients":	{
+						"OD|ingotOsmium": 1,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:OsmiumSword|0",
+					"ingredients":	{
+						"OD|ingotOsmium": 2,
+						"OD|stickWood": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:BronzeHelmet|0",
+					"ingredients":	{
+						"OD|ingotBronze": 5
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:BronzeChestplate|0",
+					"ingredients":	{
+						"OD|ingotBronze": 8
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:BronzeLeggings|0",
+					"ingredients":	{
+						"OD|ingotBronze": 7
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:BronzeBoots|0",
+					"ingredients":	{
+						"OD|ingotBronze": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:BronzePaxel|0",
+					"ingredients":	{
+						"MekanismTools:BronzeAxe|0": 1,
+						"MekanismTools:BronzePickaxe|0": 1,
+						"MekanismTools:BronzeShovel|0": 1,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:BronzeAxe|0",
+					"ingredients":	{
+						"OD|ingotBronze": 3,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:BronzePickaxe|0",
+					"ingredients":	{
+						"OD|ingotBronze": 3,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:BronzeShovel|0",
+					"ingredients":	{
+						"OD|ingotBronze": 1,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:BronzeSword|0",
+					"ingredients":	{
+						"OD|ingotBronze": 2,
+						"OD|stickWood": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:GlowstoneHelmet|0",
+					"ingredients":	{
+						"OD|ingotRefinedGlowstone": 5
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:GlowstoneChestplate|0",
+					"ingredients":	{
+						"OD|ingotRefinedGlowstone": 8
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:GlowstoneLeggings|0",
+					"ingredients":	{
+						"OD|ingotRefinedGlowstone": 7
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:GlowstoneBoots|0",
+					"ingredients":	{
+						"OD|ingotRefinedGlowstone": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:GlowstonePaxel|0",
+					"ingredients":	{
+						"MekanismTools:GlowstoneAxe|0": 1,
+						"MekanismTools:GlowstonePickaxe|0": 1,
+						"MekanismTools:GlowstoneShovel|0": 1,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:GlowstoneAxe|0",
+					"ingredients":	{
+						"OD|ingotRefinedGlowstone": 3,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:GlowstonePickaxe|0",
+					"ingredients":	{
+						"OD|ingotRefinedGlowstone": 3,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:GlowstoneShovel|0",
+					"ingredients":	{
+						"OD|ingotRefinedGlowstone": 1,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:GlowstoneSword|0",
+					"ingredients":	{
+						"OD|ingotRefinedGlowstone": 2,
+						"OD|stickWood": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:SteelHelmet|0",
+					"ingredients":	{
+						"OD|ingotSteel": 5
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:SteelChestplate|0",
+					"ingredients":	{
+						"OD|ingotSteel": 8
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:SteelLeggings|0",
+					"ingredients":	{
+						"OD|ingotSteel": 7
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:SteelBoots|0",
+					"ingredients":	{
+						"OD|ingotSteel": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:SteelPaxel|0",
+					"ingredients":	{
+						"MekanismTools:SteelAxe|0": 1,
+						"MekanismTools:SteelPickaxe|0": 1,
+						"MekanismTools:SteelShovel|0": 1,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:SteelAxe|0",
+					"ingredients":	{
+						"OD|ingotSteel": 3,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:SteelPickaxe|0",
+					"ingredients":	{
+						"OD|ingotSteel": 3,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:SteelShovel|0",
+					"ingredients":	{
+						"OD|ingotSteel": 1,
+						"OD|stickWood": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "MekanismTools:SteelSword|0",
+					"ingredients":	{
+						"OD|ingotSteel": 2,
+						"OD|stickWood": 1
+					}
+				}
+			]
+		}
+	},	
+	"values":	{
+		"before":	{
+			"FLUID|brine": 1,
+			"FLUID|heavywater": 1,
+			"Mekanism:Polyethene|1": 2,
+			"Mekanism:Polyethene|2": 4
+		},
+		"after":	{
+			
+		},
+		"conversion": [
+			
+		]
+	}
+}
