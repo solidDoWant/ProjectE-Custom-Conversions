@@ -2,7 +2,7 @@
 Custom conversion values I've typed out for ProjectE.
 
 Currently done:
-ExtraCells
+ExtraCells, Mekanism(must use ProjectE's NBT branch)
 
 Installation: Just stick JSON files in your config/ProjectE/customConversions folder.
 
